@@ -4,7 +4,9 @@ This is a movie script generator based on [GPT-2](https://en.wikipedia.org/wiki/
  
 ## Files and folders description:
 
-The list below contains the description of files and folders in this repository I think are relevant. The dataset can be found [here](https://drive.google.com/file/d/1au3Qk0OyPJ9Dcozu7yV7hzh6PX7j6CBF/view?usp=share_link). The model (version 1) can be found [here](https://drive.google.com/file/d/1P8CGGWo63UHYm_yeJlR7jBqkGLe9Yeuw/view?usp=share_link) and the model (version 2) can be found [here](https://drive.google.com/file/d/1mMG0O-TLQO2NXdDGYQH8pOC9mXM_lX9b/view?usp=share_link).
+**The dataset can be found [here](https://drive.google.com/file/d/1au3Qk0OyPJ9Dcozu7yV7hzh6PX7j6CBF/view?usp=share_link). The model (version 1) can be found [here](https://drive.google.com/file/d/1P8CGGWo63UHYm_yeJlR7jBqkGLe9Yeuw/view?usp=share_link) and the model (version 2) can be found [here](https://drive.google.com/file/d/1mMG0O-TLQO2NXdDGYQH8pOC9mXM_lX9b/view?usp=share_link).**
+
+The list below contains the description of files and folders in this repository I think are relevant. 
 
  - **deprecated** - contains code I haven't ultimately used; you can skip this folder
  - **Future_work.txt** - an unsorted list of things which could be tried in the future in order to improve the results
