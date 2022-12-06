@@ -1,0 +1,4 @@
+ - generating the movie scripts without HTML markup and/or blank lines and fine-tune the model on that dataset
+ - longer fine-tuning
+ - different prompt structures
+ - different parameters when generating the text (I only experimented with **top_k**)
