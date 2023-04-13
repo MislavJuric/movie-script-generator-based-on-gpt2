@@ -6,6 +6,14 @@ This is a movie script generator based on [GPT-2](https://en.wikipedia.org/wiki/
 
 **The dataset can be found [here](https://drive.google.com/file/d/1au3Qk0OyPJ9Dcozu7yV7hzh6PX7j6CBF/view?usp=share_link). The fine-tuned GPT-2 model (version 1) can be found [here](https://drive.google.com/file/d/1P8CGGWo63UHYm_yeJlR7jBqkGLe9Yeuw/view?usp=share_link) and the fine-tuned GPT-2 model (version 2) can be found [here](https://drive.google.com/file/d/1mMG0O-TLQO2NXdDGYQH8pOC9mXM_lX9b/view?usp=share_link).**
 
+You can re-create my virtual environment in [(Ana)conda](https://www.anaconda.com/) by running:
+
+```
+conda create --name <env> --file requirements.txt
+```
+
+where `<env>` is whatever environment name you wish.
+
 The list below contains the description of files and folders in this repository I think are relevant. 
 
  - **deprecated** - contains code I haven't ultimately used; you can skip this folder

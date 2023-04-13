@@ -2,3 +2,4 @@
  - longer fine-tuning
  - different prompt structures
  - different parameters when generating the text (I only experimented with **top_k**)
+ - if this model were to be deployed in production, it would need output parsing (since the output from the model is in one line and contains HTML markup)
