@@ -2,7 +2,7 @@
 
 This is a movie script generator based on [GPT-2](https://en.wikipedia.org/wiki/GPT-2). The original idea was to fine-tune it to generate entire movie scripts, but that didn't work as planned, as it would generate garbage and repetitive output a fairly large number of times. It does generate (mostly) coherent text within its sequence length though.
  
-## Files and folders description:
+## Files and folders description
 
 **The dataset can be found [here](https://drive.google.com/file/d/1au3Qk0OyPJ9Dcozu7yV7hzh6PX7j6CBF/view?usp=share_link). The fine-tuned GPT-2 model (version 1) can be found [here](https://drive.google.com/file/d/1P8CGGWo63UHYm_yeJlR7jBqkGLe9Yeuw/view?usp=share_link) and the fine-tuned GPT-2 model (version 2) can be found [here](https://drive.google.com/file/d/1mMG0O-TLQO2NXdDGYQH8pOC9mXM_lX9b/view?usp=share_link).**
 
@@ -31,14 +31,14 @@ The list below contains the description of files and folders in this repository 
  - **README.md** - this file
  
  
-## Data scraper notes:
+## Data scraper notes
 
  - there's 11 movies that aren't enclosed in <pre> tags (either one or two); I ignored those
  - some scripts don't have a link which leads to the script reading page, so I ignored them
  - if a script belongs to multiple genres, I duplicated it so that it is contained in each genre folder it belongs to
  - within the **movie_scripts_spider.py**, I save the movie scripts into their own files in the **parse_movie_script_reading_page** function; as far as I know, this isn't idiomatic to Scrapy and things like [Item Pipelines](https://docs.scrapy.org/en/latest/topics/item-pipeline.html) should be used; I decided to keep my code the way it is because it works, but I'm noting this here
  
-## Movie Script Generator notes:
+## Movie Script Generator notes
  
  - **huggingface_gpt2_fine_tuning.ipynb** contains all of the fine-tuning and text generation code; I like to believe that the code is readable and there's notes in the notebook as well; feel free to take a look
  - regardless of the prompt I use when generating the movie script, I can at best get coherent, non-repetitive output in about 40% of the cases
