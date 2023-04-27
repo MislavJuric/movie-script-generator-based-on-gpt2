@@ -2490,7 +2490,7 @@ IndexError                                Traceback (most recent call last)
 IndexError: list index out of range
 
 
- - output for prompt which has the structure of "half of the generated movie line | <<genre name> name>" and NUMBER_OF_HALF_GENERATED_MOVIE_LINES = 10:
+ - output for prompt which has the structure of "half of the generated movie line | <genre name>" and NUMBER_OF_HALF_GENERATED_MOVIE_LINES = 10:
  
  
 
@@ -2663,7 +2663,7 @@ Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
  ike. I would do it. <b> TED </b> You're probably right. We could probably settle up together after work. <b> LOU </b> You mean after work? <b> TED </b> That might be a possibility. <b> LOU </b> I'm very, very happy with this idea. <b> TED </b> With a million dollars?? <b> CUT TO: </b> <b> EXT. THE COUNCIL BUILDING - LATER </b> The whole park is lit up with bright, colorful lights and a huge, banner reading: CITY <b> COUNCIL - BALTIMORE </b> <b> A NEW ERA AGENCY </b> <b> A NEW ERA AGENCY </b> <b> A NEW ERA AGENCY </b> <b> A NEW ERA AGENCY </b> <b> A NEW ERA AGENCY </b> <b> A NEW ERA AGENCY </b> The NEW ERA AGENCY is one of several offices that have been converted into WAREHOUSE MARKETS and CUBICLES. Some are huge and have long lines of CUSTOMERS waiting to be purchased, most are small, SCARY SERVICE CRATES, others are overflowing with junk, etc. All of  COMEDY | ills is a series of TORTURES wrapped in plastic bags, and sold. <b> ANDREW WALSH </b> They work as an arm's length store. <b> ANDREW WALSH (V.O.) </b> I've seen the photos on the walls. <b> A NEW ERA AGENCY </b> <b> A NEW ERA AGENCY </b> 
 COMEDY |  |  
 
- - prompt structure "<<genre name> name> | <second_half_of_the_previously_generated_movie_line>" and NUMBER_OF_HALF_MOVIE_LINES_TO_GENERATE = 10 (very repetitive near the end):
+ - prompt structure "<genre name> | <second_half_of_the_previously_generated_movie_line>" and NUMBER_OF_HALF_MOVIE_LINES_TO_GENERATE = 10 (very repetitive near the end):
  
   
 
@@ -2716,7 +2716,7 @@ IndexError                                Traceback (most recent call last)
 
 IndexError: list index out of range
 
- - one nicely generated movie script for the prompt format "<<genre name> name> | <second_half_of_the_previously_generated_movie_line" and for top_k = 100:
+ - one nicely generated movie script for the prompt format "<genre name> | <second_half_of_the_previously_generated_movie_line" and for top_k = 100:
  
    The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
 Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
